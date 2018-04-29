@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     arr = []
-    arr << slef.split("." || "!" || "?")
+    arr << slef.split(".", "!", "?")
     arr.size
   end
 end
