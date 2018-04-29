@@ -20,6 +20,7 @@ class String
     arre = []
     arrp << self.split(".")
     arrq << arrp.split("?")
-    arr.size
+    arre << arrq.split("!")
+    arrq.size
   end
 end
