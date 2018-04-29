@@ -18,7 +18,8 @@ class String
     arrp = []
     arrq = []
     arre = []
-    arr << self.split(".")
+    arrp << self.split(".")
+    arrq << arrp.split("?")
     arr.size
   end
 end
