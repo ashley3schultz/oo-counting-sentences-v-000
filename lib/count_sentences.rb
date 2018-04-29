@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    slef.
 
   end
 end
