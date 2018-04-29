@@ -15,8 +15,10 @@ class String
   end
 
   def count_sentences
-    arr = []
-    arr << self.split("." && "!" && "?")
+    arrp = []
+    arrq = []
+    arre = []
+    arr << self.split(".")
     arr.size
   end
 end
