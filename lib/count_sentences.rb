@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-    #arr = []
     arr = self.split("." && "!" && "?")
     arr.size
   end
